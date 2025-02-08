@@ -25,7 +25,7 @@ export default function App() {
         <Home/><br/><br/>
       </section>
       <section id='page2' className='section'>
-        <h2>Part 2</h2><br/>
+        <h2>Part 2: Event Handling via Button Clicks</h2><br/>
         <p>
           This component revolves around button clicks to update a value in the browser.<br/>
           To demonstrate this, I've added a line that tracks the sum of an equation that changes<br/>
@@ -34,11 +34,20 @@ export default function App() {
         <Page2/><br/><br/>
       </section>
       <section id='page3' className='section'>
-        <h2>Part 3</h2><br/>
+        <h2>Part 3: Conditional Rendering</h2><br/>
+        <p>
+          This component focuses on conditional rendering. It renders a different state depending on whether<br/>
+          the user has clicked the 'Show' button or not. On top of that, it will render another state on top of that <br/>
+          depending on if the user hovers their mouse above the element.
+        </p><br/>
         <Page3/><br/><br/>
       </section>
       <section id='page4' className='section'>
-        <h2>Part 4</h2><br/>
+        <h2>Part 4: User Interactions via Submission Forms</h2><br/>
+        <p>
+          This last component focuses on User Interactions like Part 2 did, except in the form of a submission of text using<br/>
+          an input field for the user to type in.
+        </p><br/>
         <Page4/><br/><br/><br/><br/><br/>
       </section>
     </div>

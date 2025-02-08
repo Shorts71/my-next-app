@@ -25,8 +25,8 @@ function SubmissionHandler() {
 
     return (
         <div>
-            <p>For this component, the message won't fully show until you input <br />
-            something into the field and submit it. Otherwise, it will display an error message. <br/>
+            <p>The message won't fully show until you input something into the field <br />
+            and submit it. Otherwise, it will display an error message. <br/>
             Try it for yourself.</p>
             <br/>
             <input type="text" onChange={InputChange} value={input} placeholder="Enter input here" />
