@@ -15,7 +15,7 @@ function SubmissionHandler() {
             setMessage('Something must be entered into the field. Try again.');
         } else {
         setIsSubmitted(true);
-        setMessage('You entered:');
+        setMessage('You entered: ', {input});
         }
     };
 
